@@ -14,7 +14,19 @@
  *= require_self
  */
 
-body { padding-top: 100px; }
+body { padding-top: 60px; }
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
+
+.navbar-header {
+  min-height: 38px;
+  background-color: #70f3ff;
+}
+
+.navbar-header a.brand { font-size: 18px; }
+.navbar-header a.brand:hover {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
