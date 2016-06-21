@@ -24,9 +24,21 @@ th { border-bottom: 1px solid #DDD; }
   background-color: #70f3ff;
 }
 
-.navbar-header a.brand { font-size: 18px; }
-.navbar-header a.brand:hover {
+.navbar-header a.navbar-brand { font-size: 18px; }
+.navbar-header a.navbar-brand:hover {
   color: #fff;
   background-color: transparent;
   text-decoration: none;
+}
+
+.nav { font-size: 18px; }
+.nav:hover {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #ebebeb;
+  padding: 30px 0;
 }
